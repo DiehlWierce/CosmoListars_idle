@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   # Триггер на push в ветку main
   push:
-    branches: [ main ]
+    branches: [ gh-pages ]
   # Также можно запускать вручную
   workflow_dispatch:
 
